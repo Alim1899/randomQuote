@@ -35,6 +35,15 @@ background-color: bisque;
 .fa-brands{
     margin-left: 10px;
 }
+.fa-facebook-f{
+    color: #4267B2;
+}
+.fa-instagram{
+    color: #F77737;
+}
+.fa-twitter{
+    color:#1DA1F2;
+}
 .fa-brands:hover{
     cursor: pointer;
 }
@@ -42,10 +51,11 @@ background-color: bisque;
 .author{
     text-align: end;
    font-weight:900;
+   margin-right: 10px
 }
 .new{
     position: absolute;
-    margin-left:30%;
+    margin-left:35vw;
     margin-top: 28px;
     border: none;
     background-color: #f59f30;
@@ -56,6 +66,14 @@ background-color: bisque;
     cursor: pointer;
 }
 
-@media (max-width:768px) {
-    
+@media (min-width:1000px) {
+    .container{
+        margin: 0 auto;
+        margin-top: 20%
+    }
+    .new{
+        border: 1px solid red;
+       margin-left: 420px;
+       max-width: 150px;
+    }
 }
