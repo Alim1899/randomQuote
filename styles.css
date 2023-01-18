@@ -41,8 +41,8 @@ background-color: bisque;
 .fa-instagram{
     color: #F77737;
 }
-.fa-twitter{
-    color:#1DA1F2;
+.fa-github{
+    color:#000000;
 }
 .fa-brands:hover{
     cursor: pointer;
@@ -73,7 +73,7 @@ background-color: bisque;
     }
     .new{
         border: 1px solid red;
-       margin-left: 420px;
+       margin-left: 40px;
        max-width: 150px;
     }
 }
