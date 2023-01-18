@@ -1,8 +1,49 @@
 *{
 font-family:cursive;
+padding: 0;
+box-sizing: border-box;
+background-color: bisque;
+}
+.header{
+    background-color:#f59f30;
+}
+.container{
+    border: 2px double #f59f30;
+    max-width: 1000px;
+    max-height:300px;
+    margin: 0 auto;
+    margin-top: 30%; 
+}
+.paragraph::-webkit-scrollbar {
+    display: none;
+  }
+  
+.paragraph{
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+    content: '\201C';
+    text-align: center;
+    font-weight:100;
 }
 
-.container{
-    margin-top: 40%;
-    border: 1px solid blue;
+.social{
+   
+    max-width: 70px;
+    position: absolute;
+    margin-top: 7.8px; 
+}
+.author{
+    text-align: end;
+   font-weight:900;
+
+}
+.new{
+    position: absolute;
+    margin-left:30%;
+    margin-top: 28px;
+    border: none;
+    background-color: #f59f30;
+    border-radius: 50px;
+    width: 25%;
 }
