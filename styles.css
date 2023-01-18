@@ -28,15 +28,20 @@ background-color: bisque;
 }
 
 .social{
-   
-    max-width: 70px;
+    max-width: 90px;
     position: absolute;
-    margin-top: 7.8px; 
+    margin-top: 6px; 
 }
+.fa-brands{
+    margin-left: 10px;
+}
+.fa-brands:hover{
+    cursor: pointer;
+}
+
 .author{
     text-align: end;
    font-weight:900;
-
 }
 .new{
     position: absolute;
@@ -46,4 +51,11 @@ background-color: bisque;
     background-color: #f59f30;
     border-radius: 50px;
     width: 25%;
+}
+.new:hover{
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    
 }
