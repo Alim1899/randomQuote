@@ -72,8 +72,7 @@ background-color: bisque;
         margin-top: 20%
     }
     .new{
-        border: 1px solid red;
-       margin-left: 40px;
-       max-width: 150px;
+margin-left: 42vh;   
+    max-width: 250px;
     }
 }
